@@ -1,0 +1,26 @@
+{
+	"name": "co-nwd",
+	"description": "",
+	"version": "0.1.0-alpha",
+	"author": "Oleg Korobenko <oleg.korobenko@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/2do2go/co-nwd"
+	},
+	"keywords": [
+		"webdriver", "selenium", "test", "browser", "generators", "flow"
+	],
+	"scripts": {
+		"test": "mocha test --reporter spec --bail --async-only"
+	},
+	"dependencies": {
+		"nwd": "0.1.0-alpha"
+	},
+	"devDependencies": {
+		"mocha": "1.11.0",
+		"expect.js": "0.2.0",
+		"co": "3.0.2",
+		"thunkify": "0.0.1"
+	},
+	 "main": "./lib/index"
+}
