@@ -1,8 +1,8 @@
 {
 	"name": "co-nwd",
 	"description": "pure node.js implementation of Selenium WebDriver Wire Protocol using generators",
-	"version": "0.1.10",
-	"author": "Oleg Korobenko <oleg.korobenko@gmail.com>",
+	"version": "0.1.11",
+	"author": "2do2go team <dev.2do2go@gmail.com>",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/2do2go/co-nwd"
@@ -11,7 +11,7 @@
 		"webdriver", "selenium", "test", "browser", "generators", "flow"
 	],
 	"dependencies": {
-		"nwd": "0.1.10",
+		"nwd": "0.1.11",
 		"co": "3.0.2",
 		"thunkify": "0.0.1"
 	},
