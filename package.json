@@ -20,5 +20,9 @@
 		"expect.js": "0.2.0",
 		"twostep": "0.3.3"
 	},
-	 "main": "./lib/index"
+	 "main": "./lib/index",
+	"scripts": {
+		"cptestnwd": "rm -rf testnwd && cp -r ../nwd/test testnwd",
+		"testnwd": "node --harmony node_modules/.bin/_mocha testnwd --reporter spec --async-only"
+	}
 }
