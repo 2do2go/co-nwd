@@ -1,28 +1,33 @@
 {
-	"name": "co-nwd",
-	"description": "pure node.js implementation of Selenium WebDriver Wire Protocol using generators",
-	"version": "0.1.20",
-	"author": "2do2go team <dev.2do2go@gmail.com>",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/2do2go/co-nwd"
-	},
-	"keywords": [
-		"webdriver", "selenium", "test", "browser", "generators", "flow"
-	],
-	"dependencies": {
-		"nwd": "0.1.21",
-		"co": "3.0.2",
-		"thunkify": "0.0.1"
-	},
-	"devDependencies": {
-		"mocha": "1.11.0",
-		"expect.js": "0.2.0",
-		"twostep": "0.3.3"
-	},
-	 "main": "./lib/index",
-	"scripts": {
-		"cptestnwd": "rm -rf testnwd && cp -r ../nwd/test testnwd",
-		"testnwd": "node --harmony node_modules/.bin/_mocha testnwd --reporter spec --async-only"
-	}
+  "name": "co-nwd",
+  "description": "pure node.js implementation of Selenium WebDriver Wire Protocol using generators",
+  "version": "0.1.21",
+  "author": "2do2go team <dev.2do2go@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/2do2go/co-nwd"
+  },
+  "keywords": [
+    "webdriver",
+    "selenium",
+    "test",
+    "browser",
+    "generators",
+    "flow"
+  ],
+  "dependencies": {
+    "nwd": "0.1.21",
+    "co": "3.0.2",
+    "thunkify": "0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "1.11.0",
+    "expect.js": "0.2.0",
+    "twostep": "0.3.3"
+  },
+  "main": "./lib/index",
+  "scripts": {
+    "cptestnwd": "rm -rf testnwd && cp -r ../nwd/test testnwd",
+    "testnwd": "node --harmony node_modules/.bin/_mocha testnwd --reporter spec --async-only"
+  }
 }
